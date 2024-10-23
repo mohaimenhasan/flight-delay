@@ -4,6 +4,7 @@
 This project provides a predictive model for forecasting the number of flights for a given date, with optional filtering by origin, destination, airline, carrier group, flight type, and flight status (scheduled or charter).
 
 ## Table of Contents
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [Data](#data)
