@@ -31,6 +31,8 @@ def get_closest_prediction_for_date(date_to_predict, origin=None, destination=No
     # Dynamically get the directory where the script is located
     script_dir = os.path.dirname(os.path.realpath(__file__))
     
+    # To download the data - please download the data from the following link and place it in the data folder
+    # https://www.kaggle.com/datasets/parulpandey/us-international-air-traffic-data?resource=download
     # Construct absolute paths for the data files
     departures_path = os.path.join(script_dir, '../data/International_Report_Departures.csv')
     
