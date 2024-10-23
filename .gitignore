@@ -1,0 +1,16 @@
+# Ignore the pyenv virtual environment directory
+modelenv/
+
+# Pyenv specific files
+.python-version
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore data and output directories if large or contain local data
+prediction-model/data/
+prediction-model/output/
+
+# Ignore IDE specific files
+.vscode/
